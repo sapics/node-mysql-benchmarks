@@ -63,7 +63,7 @@ exports.getConfig = function (factor) {
 //  addBenchmark(cfg, "PHP",                  false, false);
 //  addBenchmark(cfg, "mysql-libmysqlclient", true,  true,  "mysql-libmysqlclient");
 //  addBenchmark(cfg, "mysql-libmysqlclient", false, true,  "mysql-libmysqlclient *");
-  addBenchmark(cfg, "mariasql",             true,  false, "mariasql(" + require('../package.json').dependencies.mariasql + ")");
+//  addBenchmark(cfg, "mariasql",             true,  false, "mariasql(" + require('../package.json').dependencies.mariasql + ")");
   addBenchmark(cfg, "mysql2",               true,  true,  "mysql2(" + require('../package.json').dependencies.mysql2 + ')');
   addBenchmark(cfg, "mysql2",               true,  false, "mysql2(" + require('../package.json').dependencies.mysql2 + ") *");
   addBenchmark(cfg, "mysql",                true,  true,  "mysql(" + require('../package.json').dependencies.mysql + ")");

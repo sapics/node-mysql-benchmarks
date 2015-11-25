@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 0.10 # latest stable release
+  - 4.2
 
 # This causes `Job is already running: mysql`
 #services:

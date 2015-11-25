@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - 0.10 # latest stable release
-  - 0.12 # latest development release
-  - 4.2
 
 # This causes `Job is already running: mysql`
 #services:
@@ -11,7 +9,6 @@ node_js:
 before_install:
   - sudo apt-get update
   - sudo apt-get install libmysqlclient-dev
-  - sudo apt-get install php5-cli php5-mysql
 before_script:
   - "mysql -uroot -e \"DELETE FROM mysql.db WHERE Db = 'test';\""
   - "mysql -uroot -e \"DELETE FROM mysql.user WHERE Host = 'localhost' AND User = '';\""

@@ -60,7 +60,7 @@ exports.getConfig = function (factor) {
 
   //                module                  async  typeCast
   addBenchmark(cfg, "C",                    false, false);
-  addBenchmark(cfg, "PHP",                  false, false);
+//  addBenchmark(cfg, "PHP",                  false, false);
 //  addBenchmark(cfg, "mysql-libmysqlclient", true,  true,  "mysql-libmysqlclient");
 //  addBenchmark(cfg, "mysql-libmysqlclient", false, true,  "mysql-libmysqlclient *");
   addBenchmark(cfg, "mariasql",             true,  false, "mariasql(" + require('../package.json').dependencies.mariasql + ")");

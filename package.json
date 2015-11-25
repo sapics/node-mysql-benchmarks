@@ -37,9 +37,9 @@
   , "argparse":">=0.1.7"
   , "semver":">=1.1.0"
   , "mysql-libmysqlclient" : "1.6.0"
-  , "mysql" : "2.5.4"
-  , "mysql2" : "0.14.1"
-  , "mariasql" : "0.1.21"
+  , "mysql" : "2.9.0"
+  , "mysql2" : "0.15.8"
+  , "mariasql" : "0.2.5"
   }
 , "devDependencies" :
   { "nodelint" : "*"
